@@ -39,6 +39,7 @@ nav a:hover {
      background-color: white;
     }
 main h1 { 
+     color: orange;
     font-size: 30px;
     text-align: center;
     padding-top: 45px;
@@ -50,7 +51,7 @@ main h1 {
     background-color:bisque ;
     }
     img{width: 40%;
-        height: auto;
+        height: 60%;
         text-align: center;
 
     }
