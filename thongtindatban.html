@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./baiktra.css">
+    <title>datban</title>
+</head>
+<body>
+       <header> 
+        <h1>
+             CHILLGUY COFFE
+        
+        </h1>
+        <H3>       </H3>
+        </header>
+   
+    <nav>
+        <a href="baiktra2.html">Trang chủ</a>
+        <a href="gioithieu.html">giới thiệu</a>
+        <a href="menu.html">Bảng menu</a>
+        <a href="thongtindatban.html">Thông tin đặt bàn</a>
+       
+    </nav>
+
+    <h3 >PHIẾU ĐẶT BÀN TRỰC TUYẾN
+            </h3>
+              <table border="0" width="100%" cellpadding="8" cellspacing="0">
+                <tr>
+                  <td width="30%">
+                    <label for="fullName"><b>Họ và tên:</b></label>
+                  </td>
+                  <td width="70%">
+                    <input
+                      type="text"
+                      id="fullName"
+                      name="fullName"
+                      placeholder="Nhập họ và tên"
+                      style="width: 80%; padding: 5px" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="phoneNumber"><b>Số điện thoại:</b></label>
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="phoneNumber"
+                      name="phoneNumber"
+                      placeholder="Nhập số điện thoại"
+                      style="width: 80%; padding: 5px"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="Date"><b>Ngày & Giờ đến:</b></label>
+                  </td>
+                  <td>
+                    <input
+                      type="datetime-local"
+                      id="Date"
+                      name="Date"
+                      style="padding: 5px"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="guestCount"><b>Số lượng khách:</b></label>
+                  </td>
+                  <td>
+                    <input
+                      type="number"
+                      id="guestCount"
+                      name="guestCount"
+                      min="1"
+                      max="50"
+                      value="1"
+                      style="width: 80px; padding: 5px"/>
+                    người
+                  </td>
+                </tr>
+                <tr>
+                  <td><b>Khu vực ngồi:</b></td>
+                  <td>
+                    <input
+                      type="radio"
+                      id="indoor"
+                      name="seating"
+                      value="Trong nhà"
+                      checked/>
+                    <label for="indoor"> Trong nhà</label> 
+                    <input
+                      type="radio"
+                      id="outdoor"
+                      name="seating"
+                      value="Sân vườn"/>
+                      <label for="outdoor"> Sân vườn</label>
+                    <input
+                      type="radio"
+                      id="maylanh"
+                      name="seating"
+                      value="Phòng máy lạnh"/>
+                      <label for="maylanh"> Phòng máy lạnh</label>
+                    <input
+                    name="note"
+                      rows="3"
+                      style="width: 85%; padding: 5px"
+                      placeholder="Yêu cầu thêm">
+                    </textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center" style="padding-top: 15px">
+                    <input
+                      type="submit"
+                      value="XÁC NHẬN ĐẶT BÀN"
+                      onclick=" alert('Đơn đặt bàn của bạn đã được gửi thành công!')"
+                      style="
+                        background-color: #4a2306;
+                        color: white;
+                        padding: 10px 25px;
+                        border: none;
+                        font-weight: bold;
+                        cursor: pointer;
+                        border-radius: 4px;"/>
+                    <input
+                      type="reset"
+                      value="Nhập lại"
+                      style="
+                        padding: 10px 15px;
+                        margin-left: 10px;
+                        cursor: pointer;"/>
+                  </td>
+                </tr>
+              </table>
+
+
+  
+               <a href="baiktra2.html">QUAY LẠI TRANG CHỦ</a>
+                
+</body>
+</body>
+</html>
